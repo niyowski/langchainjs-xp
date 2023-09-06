@@ -1,0 +1,32 @@
+{
+  "name": "langchainjs-xp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mehmet Yarar",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@dqbd/tiktoken": "^1.0.7",
+    "dotenv": "^16.3.1",
+    "hnswlib-node": "^2.0.0",
+    "langchain": "^0.0.141",
+    "pdf-parse": "^1.1.1",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}
